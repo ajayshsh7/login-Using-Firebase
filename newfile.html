@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#authForm {
+    text-align: center;
+}
+
+#secretContent {
+    display: none;
+    text-align: center;
+}
+
+#signOutButton {
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="authForm">
+        <h2>Sign In / Sign Up</h2>
+        <input type="email" id="userEmail" placeholder="Email">
+        <input type="password" id="userPassword" placeholder="Password">
+        <button id="signUpButton">Sign Up</button>
+        <button id="signInButton">Sign In</button>
+    </div>
+
+    <div id="secretContent">
+        <h2>Welcome!</h2>
+        <p id="userInfo"></p>
+        <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script src="firebase-app.js"></script>
+    <script src="firebase-auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

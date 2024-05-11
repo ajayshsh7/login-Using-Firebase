@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* padding-left: 2rem; */
+}
+
+.form_content{
+    display: grid;
+    width: 90px;
+    gap: .4rem;
+    margin-left: 200px;
+}
+#button_container{
+    display: grid;
+    width: 90px;
+    padding-top: 2rem;
+    gap: .4rem;
+    margin-left: 200px;
+}
